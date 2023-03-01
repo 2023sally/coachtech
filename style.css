@@ -130,9 +130,15 @@ li {
   padding-top: 4px;
 }
 
+.section-about {
+  background: rgb(245, 245, 245);
+  padding-bottom: 45px;
+}
+
 .about-text {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .webfont-2 {
@@ -146,11 +152,18 @@ li {
   color: rgb(131, 131, 131);
 }
 
+.section-text-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 230px;
+  margin-right: 180px;
+}
+
 .text-item {
   color: rgb(131, 131, 131);
   line-height: 2.0;
-  display: flex;
-  justify-content: center;
+  margin-top: -50px;
 }
 
 .text-1 {
@@ -159,8 +172,7 @@ li {
 
 .section-img {
   width: 450px;
-  display: flex;
-  justify-content: center;
+  margin-top: 20px;
 }
 
 .section-about-img {
@@ -451,9 +463,9 @@ table th {
   font-weight: bold;
   font-size: 30px;
   position: absolute;
-  bottom: 150px;
-  left: 300px;
-  /* text-align: center; */
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%,-25%);
 }
 
 .background-text-2 {
