@@ -146,14 +146,11 @@ li {
   color: rgb(131, 131, 131);
 }
 
-.about-text-img {
-  text-align: center;
-}
-
 .text-item {
   color: rgb(131, 131, 131);
   line-height: 2.0;
-  transform: translate(230px, 55px);
+  display: flex;
+  justify-content: center;
 }
 
 .text-1 {
@@ -162,16 +159,12 @@ li {
 
 .section-img {
   width: 450px;
-  /* display: block; */
-  /* margin: 0 0 0 auto; */
-  /* text-align: center; */
-  /* margin-left: 950px; */
-  /* transform: translate(-120px, -165px); */
+  display: flex;
+  justify-content: center;
 }
 
 .section-about-img {
   width: 100%;
-  /* text-align: center; */
 }
 
 .webfont-3 {
