@@ -130,11 +130,6 @@ li {
   padding-top: 4px;
 }
 
-.section-about {
-  background: rgb(245, 245, 245);
-  height: 500px;
-}
-
 .about-text {
   text-align: center;
   padding-top: 20px;
@@ -151,6 +146,10 @@ li {
   color: rgb(131, 131, 131);
 }
 
+.about-text-img {
+  text-align: center;
+}
+
 .text-item {
   color: rgb(131, 131, 131);
   line-height: 2.0;
@@ -163,13 +162,16 @@ li {
 
 .section-img {
   width: 450px;
-  display: inline-block;
-  margin-left: 950px;
-  transform: translate(-120px, -165px);
+  /* display: block; */
+  /* margin: 0 0 0 auto; */
+  /* text-align: center; */
+  /* margin-left: 950px; */
+  /* transform: translate(-120px, -165px); */
 }
 
 .section-about-img {
   width: 100%;
+  /* text-align: center; */
 }
 
 .webfont-3 {
@@ -458,6 +460,7 @@ table th {
   position: absolute;
   bottom: 150px;
   left: 300px;
+  /* text-align: center; */
 }
 
 .background-text-2 {
