@@ -444,6 +444,7 @@ table th {
 
 .background-1 {
   width: 50%;
+  position: relative;
 }
 
 .background-1-img {
@@ -452,6 +453,7 @@ table th {
 
 .background-2 {
   width: 50%;
+  position: relative;
 }
 
 .background-2-img {
@@ -463,9 +465,9 @@ table th {
   font-weight: bold;
   font-size: 30px;
   position: absolute;
-  top: 25%;
-  left: 25%;
-  transform: translate(-25%,-25%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .background-text-2 {
@@ -473,10 +475,11 @@ table th {
   font-weight: bold;
   font-size: 30px;
   position: absolute;
-  bottom: 150px;
-  left: 960px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
-
+  
 .footer {
   padding-bottom: 80px;
 }
